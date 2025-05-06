@@ -4,13 +4,14 @@ import android.app.Activity
 import android.os.Bundle
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import br.com.cecode.routines.R
 import br.com.cecode.routines.model.Card
 import br.com.cecode.routines.ui.recyclerview.adapter.CardsListAdapter
 
-class MainActivity : Activity() {
+class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
